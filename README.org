@@ -18,6 +18,9 @@ Internals:
 - pandoc support a user-provided header file when you want to convert to
   tex/pdf format.
 
+References:
+- Thanks [[http://craigeley.com/post/60358551339/formatting-your-cv-with-markdown-and-latex][Craig Eley]].
+
 License:
 - You can copy and modify this repo and generated your own resume as you
   like. Hope it helps.
