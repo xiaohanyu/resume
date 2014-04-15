@@ -1,0 +1,23 @@
+This is my personal online resume.
+
+It is written in Emacs org-mode format and can be converted to other
+formats(pdf/html/markdown) via [[https://github.com/jgm/pandoc][pandoc]].
+
+I've also write a Rakefile to automate this workflow:
+
+- =rake xiaohanyu_resume.pdf=: convert to pdf via [[https://github.com/jgm/pandoc][pandoc]] and [[http://www.xelatex.org/][xelatex]].
+- =rake xiaohanyu_resume.tex=: convert to tex source file.
+- =rake xiaohanyu_resume.html=: convert to html.
+
+Internals:
+- pandoc is amazing.
+- pandoc is awesome.
+- pandoc(<=1.12.3.2) didn't support org-mode reader, so you must build pandoc
+  from master code if you want to convert from org-mode format to other
+  formats.
+- pandoc support a user-provided header file when you want to convert to
+  tex/pdf format.
+
+License:
+- You can copy and modify this repo and generated your own resume as you
+  like. Hope it helps.
