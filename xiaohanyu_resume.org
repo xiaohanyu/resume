@@ -1,0 +1,55 @@
+#+TITLE: Xiao Hanyu
+#+AUTHOR: Xiao Hanyu
+
+* Education
+  - 2007-2011: Bachelor degree in Computer Science at Zhejiang University.
+    - Chu Kochen Honors College (About 200 best students out of 5000 freshmen
+      are chosen).
+
+* Skills
+  - Proficient in Python, C/C++, basic knowledge of Java, Ruby, Common Lisp,
+    Scheme, JavaScript.
+  - Experienced in Cloud Computing, OpenStack contributor, basic knowledge of
+    hadoop.
+  - Experienced in Linux and various system automation and deployment tools.
+  - Familiar with web development in both backend and frontend.
+
+* Work Experience
+
+- 2013.9-Present: Freelance
+  - Works on various open source projects, receives 200+ github stars.
+  - Maintainer of openstack china git [[https://github.com/xiaohanyu/openstack-git-oschina-mirror][mirror]].
+  - Design and implement [[http://wpicmeet.com/]] from scratch with Python/Flask,
+    jQuery, and bootstrap.
+
+- 2012.7-2013.9: Software Engineer at Eayun
+  - Work on EayunOS, which provides an easy to use OpenStack linux
+    distribution.
+  - Main developer and reviewer of many internal OpenStack patches.
+  - Design and implement the Jenkins based automation(for test, deployment,
+    package build, etc) system for the whole company from scratch.
+  - OpenStack contributor, also contribute several patches for various open
+    source projects.
+
+- 2011.7-2012.1: Site Reliability Engineer at Baidu
+  - Responsible for the operation of Hadoop cluster(with 2800+ servers).
+  - Develop a Hadoop service auto-checking system using Shell script and Python.
+  - Maintain a legacy Hadoop budget system using Common Lisp(SBCL/hunchentoot).
+
+- 2010.7-2010.10: Intern at Taobao
+  - Design and implement a simple video conversion system for Taobao Video.
+
+* Honors and Awards
+
+- 2010: Third Class Academic Scholarship, Zhejiang University.
+- 2010: Second Prize Winner of the 8th Zhejiang University MCM.
+- 2006: First Prize Winner of the National High School Chemistry
+  Competition(19th/1000 place in Hebei Province, China).
+
+* Community and Social Activities
+- 2008-2009: Chairman of Traveler Outdoor Club, Zhejiang University
+  - Leader of multiple social activities, collaborate with Giant Hangzhou and
+    various clubs.
+  - Experienced in travel and outdoor sport. I have traveled all over china,
+    over 8000km with only one bicycle, including travel from Hangzhou to
+    Beijing, Hangzhou to Lhasa, and around the Qinghai Lake.

@@ -10,6 +10,12 @@ CLEAN.include(tex_resume, pdf_resume, html_resume, '*~')
 
 pandoc_tex_header = "header.tex"
 
+
+file tex_resume => [org_resume, pandoc_tex_header] do
+  sh "pandoc -s #{org_resume} --latex-engine=xelatex" +
+     " -H #{pandoc_tex_header} -o #{tex_resume}"
+end
+
 file pdf_resume => [org_resume, pandoc_tex_header] do
   sh "pandoc -s #{org_resume} --latex-engine=xelatex" +
      " -H #{pandoc_tex_header} -o #{pdf_resume}"
