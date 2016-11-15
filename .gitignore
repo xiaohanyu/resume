@@ -1,0 +1,9 @@
+*~
+*.aux
+*.log
+*.out
+*.toc
+*.pdf
+*.tex
+
+todo.org
