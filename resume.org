@@ -23,7 +23,7 @@
     contributor
   - Top Emacs Lisp developer in China, created projects used by people all
     over the world
-  - Experienced in Digital Typesetting.
+  - Experienced in digital typesetting
     - Keywords: $\text{\LaTeX}$, Web Font, CSS, Pandoc
   - Professional working proficiency in both written and spoken English
 
