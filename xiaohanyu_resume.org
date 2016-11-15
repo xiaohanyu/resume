@@ -1,55 +1,80 @@
 #+TITLE: Xiao Hanyu
-#+AUTHOR: Xiao Hanyu
+#+AUTHOR: [[mailto:xiaohanyu1988@gmail.com][xiaohanyu1988@gmail.com]] \textbar{} [[https://github.com/xiaohanyu][xiaohanyu@github]] \textbar{} [[http://xiaohanyu.me/about][http://xiaohanyu.me/about]]
 
 * Education
-  - 2007-2011: Bachelor degree in Computer Science at Zhejiang University.
+  - 2007--2011: Bachelor degree in Computer Science and Technology at Zhejiang
+    University
     - Chu Kochen Honors College (About 200 best students out of 5000 freshmen
-      are chosen).
+      are chosen)
 
 * Skills
-  - Proficient in Python, C/C++, basic knowledge of Java, Ruby, Common Lisp,
-    Scheme, JavaScript.
-  - Experienced in Cloud Computing, OpenStack contributor, basic knowledge of
-    hadoop.
-  - Experienced in Linux and various system automation and deployment tools.
-  - Familiar with web development in both backend and frontend.
+  - Proficient in Python, familiar with C/C++, Java, Ruby, Lisp/Scheme,
+    JavaScript, Mathematica
+  - Familiar with Cloud Computing, tiny OpenStack contributor, basic knowledge
+    of Hadoop operation
+  - Experienced in Linux system administration and various Continuous
+    Integration/Deployment tools
+    - Keywords: Shell Script, Ansible, Jenkins, Travis, Vagrant, Docker, Git,
+      Emacs/Vim, tmux
+  - Familiar with web development in both backend and frontend
+    - Keywords: Bootstrap, Semantic-UI, Django, Flask
+  - Experienced in HTTP RESTful API design
+  - Experienced Githuber with about 800 Github stars, active open source
+    contributor
+  - Top Emacs Lisp developer in China, created projects used by people all
+    over the world
+  - Experienced in Digital Typesetting.
+    - Keywords: $\text{\LaTeX}$, Web Font, CSS, Pandoc
+  - Professional working proficiency in both written and spoken English
 
 * Work Experience
 
-- 2013.9-Present: Freelance
-  - Works on various open source projects, receives 200+ github stars.
-  - Maintainer of openstack china git [[https://github.com/xiaohanyu/openstack-git-oschina-mirror][mirror]].
-  - Design and implement [[http://wpicmeet.com/]] from scratch with Python/Flask,
-    jQuery, and bootstrap.
+- 2016.5--Present: Founder of PPType Inc.
+  - Founded PPType Inc. PPType provides professional solution and consultant
+    service for digital typesetting
+  - Drafted, designed and implemented the official website of PPResume:
+    [[http://ppresume.com][http://ppresume.com]]
+  - Published /A Guide for Resume Writing and Typesetting/ in Chinese, which
+    got 5000 UVs during the first day when released
+  - Learned a lot about how to run a business, like finance and accounting,
+    marketing, business laws, etc.
 
-- 2012.7-2013.9: Software Engineer at Eayun
-  - Work on EayunOS, which provides an easy to use OpenStack linux
-    distribution.
-  - Main developer and reviewer of many internal OpenStack patches.
-  - Design and implement the Jenkins based automation(for test, deployment,
-    package build, etc) system for the whole company from scratch.
-  - OpenStack contributor, also contribute several patches for various open
-    source projects.
+- 2013.9--2016.4: Freelance Web Developer
+  - Provided freelance development service for various clients from China,
+    Canada, Hong Kong, Switzerland, etc.
+  - Active Githuber and open source contributor
+  - Fast learner about everything related to full stack web development
 
-- 2011.7-2012.1: Site Reliability Engineer at Baidu
-  - Responsible for the operation of Hadoop cluster(with 2800+ servers).
-  - Develop a Hadoop service auto-checking system using Shell script and Python.
-  - Maintain a legacy Hadoop budget system using Common Lisp(SBCL/hunchentoot).
+- 2012.7--2013.9: Software Engineer at Eayun
+  - Enhanced EayunOS, an easy to use OpenStack linux distribution
+  - Main developer and reviewer of many internal OpenStack patches
+  - Designed and implemented a Jenkins based Continuous Integration/Deployment
+    system for the whole company from scratch, which dramatically reduces 90% of
+    tedious work
+  - Contributed patches for OpenStack and various related open source projects
 
-- 2010.7-2010.10: Intern at Taobao
-  - Design and implement a simple video conversion system for Taobao Video.
+- 2011.7--2012.1: Site Reliability Engineer at Baidu
+  - $7 \times 24$ Responsible for the operation of Hadoop clusters(with 2800+
+    servers)
+  - Developed a Hadoop health auto-checking system with Shell Script and Python
+  - Maintained a legacy Hadoop budget system written in Common
+    Lisp(SBCL/hunchentoot)
+
+- 2010.7--2010.10: Intern at Taobao
+  - Designed and implemented a simple video conversion system for Taobao Video
+    with Python and ffmpeg
 
 * Honors and Awards
 
-- 2010: Third Class Academic Scholarship, Zhejiang University.
-- 2010: Second Prize Winner of the 8th Zhejiang University MCM.
+- 2010: Third Class Academic Scholarship, Zhejiang University
+- 2010: Second Prize Winner of the 8th Zhejiang University MCM
 - 2006: First Prize Winner of the National High School Chemistry
-  Competition(19th/1000 place in Hebei Province, China).
+  Competition(19th/1000 place in Hebei Province, China)
 
 * Community and Social Activities
-- 2008-2009: Chairman of Traveler Outdoor Club, Zhejiang University
-  - Leader of multiple social activities, collaborate with Giant Hangzhou and
-    various clubs.
+- 2008--2009: Chairman of Traveler Outdoor Club, Zhejiang University
+  - Leader of multiple social activities, collaborated with Giant Hangzhou and
+    various clubs
   - Experienced in travel and outdoor sport. I have traveled all over china,
-    over 8000km with only one bicycle, including travel from Hangzhou to
-    Beijing, Hangzhou to Lhasa, and around the Qinghai Lake.
+    over 8000 km with only one bicycle, including travel from Hangzhou to
+    Beijing, Hangzhou to Lhasa, and around the Qinghai Lake

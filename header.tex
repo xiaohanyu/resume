@@ -1,39 +1,57 @@
-%!TEX TS-program = xelatex
-%!TEX encoding = UTF-8 Unicode
+\setkeys{Gin}{width=0.8\maxwidth,height=\maxheight,keepaspectratio}
 
-\usepackage{fontspec}
+% ctex settings
+% ref: http://ctan.mirrorcatalogs.com/language/chinese/ctex/ctex.pdf
+\usepackage[UTF8, heading=true, fontset=none, scheme=plain]{ctex}
+\ctexset{
+  fontset=fandol,
+  punct=kaiming,
+  space=auto,
+}
 
-% DOCUMENT LAYOUT
-\usepackage[margin=1in]{geometry}
-\setlength\parindent{0in}
+% English font settings
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont[Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O}
+\setsansfont{Droid Sans}
+\setmonofont[Scale=0.8]{CMU Typewriter Text}
 
-% Reduce spacing in itemize, enumerate and titles
-\usepackage{multicol}
-\usepackage{enumitem}
-\setenumerate{nolistsep}
-\setitemize{nolistsep}
+% page layout/margin control
+\usepackage[scale=0.85, marginparsep=7pt]{geometry}
+% \geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
 
-% FONTS
-\usepackage{xunicode}
-\usepackage{xltxtra}
-\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
-\setmainfont[Ligatures={Common}, Numbers={OldStyle}]{Hoefler Text}
-\setmonofont[Scale=0.8]{Droid Sans Mono}
-\setsansfont[Scale=0.8]{Monaco}
+% renew quote environment based on framed package
+% Thanks http://www.jevon.org/wiki/Fancy_Quotation_Boxes_in_Latex
 
-% HEADINGS and TITLES
-\usepackage{sectsty}
-\usepackage[normalem]{ulem}
-\sectionfont{\sffamily\mdseries\large\underline} %Underlines headings
-\setcounter{secnumdepth}{-1} % Removes the numbers before sections
-\subsectionfont{\rmfamily\mdseries\scshape\normalsize}
-\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
+% for adjustwidth environment
+\usepackage[strict]{changepage}
 
-\usepackage{titling}
+\usepackage{framed}
+\usepackage{color}
+\usepackage{xcolor}
 
-\setlength{\droptitle}{-90pt} % The negative number moves the title closer to the top of the page
-\title{ Xiao Hanyu } % put your name here
-\author{ xiaohanyu1988@gmail.com \textbar{} xiaohanyu@github } % put your contact information here
-\date{} % Leave blank to remove the date
+% environment derived from framed.sty: see leftbar environment definition
+\definecolor{quoteshade}{rgb}{0.95,0.95,0.95}
+
+\renewenvironment{quote}{%
+  \setlength{\parskip}{0.2\baselineskip}
+  \def\FrameCommand{%
+    \hspace{1pt}%
+    {\color{gray}\vrule width 2pt}%
+    {\color{quoteshade}\vrule width 4pt}%
+    \colorbox{quoteshade}%
+  }%
+  \MakeFramed{\advance\hsize-\width\FrameRestore}%
+  \noindent\hspace{-4.55pt}% disable indenting first paragraph
+  \begin{adjustwidth}{}{7pt}%
+  \vspace{2pt}\vspace{2pt}%
+}
+{%
+  \vspace{2pt}\end{adjustwidth}\endMakeFramed%
+}
+
+%% \setlength{\droptitle}{-90pt} % The negative number moves the title closer to the top of the page
+%% \title{ Xiao Hanyu } % put your name here
+%% \author{ xiaohanyu1988@gmail.com \textbar{} xiaohanyu@github } % put your contact information here
+%% \date{} % Leave blank to remove the date
 
 % BEGIN DOCUMENT
