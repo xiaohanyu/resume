@@ -20,7 +20,7 @@ Internals:
   tex/pdf format.
 
 References:
-- Thanks [[http://craigeley.com/post/60358551339/formatting-your-cv-with-markdown-and-latex][Craig Eley]].
+- Thanks [[http://craigeley.com/post/60358551339/formatting-your-cv-with-markdown-and-latex][Craig Eley]] for his excellent, awesome org-mode reader for pandoc.
 
 License:
 - BSD-3-Clause for code.
