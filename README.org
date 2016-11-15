@@ -3,11 +3,12 @@ This is my personal online resume.
 It is written in Emacs org-mode format and can be converted to other
 formats(pdf/html/markdown) via [[https://github.com/jgm/pandoc][pandoc]].
 
+You need to have a latest version of [[https://www.tug.org/texlive/][TeX Live]] installed to build pdf.
+
 I've also write a Rakefile to automate this workflow:
 
-- =rake xiaohanyu_resume.pdf=: convert to pdf via [[https://github.com/jgm/pandoc][pandoc]] and [[http://www.xelatex.org/][xelatex]].
-- =rake xiaohanyu_resume.tex=: convert to tex source file.
-- =rake xiaohanyu_resume.html=: convert to html.
+- =rake pdf=: convert to pdf via [[https://github.com/jgm/pandoc][pandoc]] and [[http://www.xelatex.org/][xelatex]].
+- =rake tex=: convert to tex source file.
 
 Internals:
 - pandoc is amazing.
@@ -22,5 +23,5 @@ References:
 - Thanks [[http://craigeley.com/post/60358551339/formatting-your-cv-with-markdown-and-latex][Craig Eley]].
 
 License:
-- You can copy and modify this repo and generated your own resume as you
-  like. Hope it helps.
+- BSD-3-Clause for code.
+- Text content are private.
