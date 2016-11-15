@@ -1,28 +1,26 @@
 require 'rake/clean'
 
-resume = "xiaohanyu_resume"
-org_resume = "#{resume}.org"
-tex_resume = "#{resume}.tex"
-pdf_resume = "#{resume}.pdf"
-html_resume = "#{resume}.html"
+source_files = "resume"
+org = "#{source_files}.org"
+tex = "#{source_files}.tex"
+pdf = "#{source_files}.pdf"
 
-CLEAN.include(tex_resume, pdf_resume, html_resume, '*~')
+CLEAN.include(tex, pdf, '*~')
 
-pandoc_tex_header = "header.tex"
+pandoc_tex_header = "pandoc/header.tex"
 
-
-file tex_resume => [org_resume, pandoc_tex_header] do
-  sh "pandoc -s #{org_resume} --latex-engine=xelatex" +
-     " -H #{pandoc_tex_header} -o #{tex_resume}"
+file tex => [org, pandoc_tex_header] do
+  sh "pandoc #{org} --latex-engine=xelatex" +
+     " -H #{pandoc_tex_header} -o #{tex}"
 end
 
-file pdf_resume => [org_resume, pandoc_tex_header] do
-  sh "pandoc -s #{org_resume} --latex-engine=xelatex" +
-     " -H #{pandoc_tex_header} -o #{pdf_resume}"
+file pdf => [org, pandoc_tex_header] do
+  sh "pandoc #{org} --latex-engine=xelatex" +
+     " -H #{pandoc_tex_header} -o #{pdf}"
 end
 
-file html_resume => [org_resume] do
-  sh "pandoc -s #{org_resume} -o #{html_resume}"
-end
-
-task :default => [pdf_resume, html_resume]
+task :default => [pdf]
+desc 'Build pdf files from tex file'
+task pdf: source_files.ext('.pdf')
+desc 'Build tex files from org file'
+task tex: source_files.ext('.tex')
