@@ -29,8 +29,8 @@
 
 * Work Experience
 
-- 2016.5--Present: Founder of PPType Inc.
-  - Founded PPType Inc. PPType provides professional solution and consultation
+- 2016.5--Present: Founder of PPType, Inc.
+  - Founded PPType, Inc. PPType provides professional solution and consultation
     service for digital typesetting
   - Drafted, designed and implemented the official website of PPResume:
     [[http://ppresume.com][http://ppresume.com]]
