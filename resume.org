@@ -54,11 +54,11 @@
   - Contributed patches for OpenStack and various related open source projects
 
 - 2011.7--2012.1: Site Reliability Engineer at Baidu
-  - $7 \times 24$ Responsible for the operation of Hadoop clusters(with 2800+
+  - $7 \times 24$ Responsible for the operation of Hadoop clusters (with 2800+
     servers)
   - Developed a Hadoop health auto-checking system with Shell Script and Python
   - Maintained a legacy Hadoop budget system written in Common
-    Lisp(SBCL/hunchentoot)
+    Lisp (SBCL/hunchentoot)
 
 - 2010.7--2010.10: Intern at Taobao
   - Designed and implemented a simple video conversion system for Taobao Video
@@ -69,7 +69,7 @@
 - 2010: Third Class Academic Scholarship, Zhejiang University
 - 2010: Second Prize Winner of the 8th Zhejiang University MCM
 - 2006: First Prize Winner of the National High School Chemistry
-  Competition(19th/1000 place in Hebei Province, China)
+  Competition (19th/1000 place in Hebei Province, China)
 
 * Community and Social Activities
 - 2008--2009: Chairman of Traveler Outdoor Club, Zhejiang University
