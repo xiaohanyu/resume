@@ -5,7 +5,7 @@ formats(pdf/html/markdown) via [[https://github.com/jgm/pandoc][pandoc]].
 
 You need to have a latest version of [[https://www.tug.org/texlive/][TeX Live]] installed to build pdf.
 
-I've also write a Rakefile to automate this workflow:
+I've also written a Rakefile to automate this workflow:
 
 - =rake pdf=: convert to pdf via [[https://github.com/jgm/pandoc][pandoc]] and [[http://www.xelatex.org/][xelatex]].
 - =rake tex=: convert to tex source file.
@@ -16,7 +16,7 @@ Internals:
 - pandoc(<=1.12.3.2) didn't support org-mode reader, so you must build pandoc
   from master code if you want to convert from org-mode format to other
   formats.
-- pandoc support a user-provided header file when you want to convert to
+- pandoc supports a user-provided header file when you want to convert to
   tex/pdf format.
 
 References:
