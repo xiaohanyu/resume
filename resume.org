@@ -29,6 +29,14 @@
 
 * Work Experience
 
+- 2017.5--Present: Senior Web Developer at Shopee
+  - Lead web developer at shopee data engineering team, build web product 
+    that help tens of shopee departments to get better insight from data 
+    and make decisions.
+  - Guided team to contribute patches to [[https://github.com/apache/incubator-superset][Apache Superset]]
+  - Responsible for fullstack web developer recruitment by tech interviews
+  - Provided mentorship for new fresh graduates.
+  - Built and maintained docker based workflow for development and deployment
 - 2016.5--Present: Founder of PPType, Inc.
   - Founded PPType, Inc. PPType provides professional solution and consultation
     service for digital typesetting
