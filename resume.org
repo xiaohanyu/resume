@@ -1,5 +1,4 @@
 #+TITLE: Xiao Hanyu
-#+AUTHOR: [[mailto:xiaohanyu1988@gmail.com][xiaohanyu1988@gmail.com]] \textbar{} [[https://github.com/xiaohanyu][xiaohanyu@github]] \textbar{} [[http://xiaohanyu.me/about][http://xiaohanyu.me/about]]
 
 * Education
   - 2007--2011: Bachelor degree in Computer Science and Technology at Zhejiang
@@ -28,7 +27,12 @@
 
 * Work Experience
 
-- 2017.6--Present: Senior Software Engineer at Platform Engineering team of Shopee
+- 2019.5--Present: Senior Product Engineer at Growth Team of Gojek
+  - Work on experimentation platform
+
+\vspace{2mm}
+
+- 2018.6--2019.3.: Senior Software Engineer at Platform Engineering team of Shopee
   - Work on shopee cloud, which is a private cloud that provide PaaS services
     like redis cluster, etc.
   - Solo frontend developer with some UI/UX design
@@ -47,6 +51,8 @@
     dashboards, 15000 various charts, help shopee to transfer data to
     visualizations , get insights, and make decisions everyday.
 
+\vspace{2mm}
+
 - 2016.5--Present: Founder of PPType, Inc.
   - Founded PPType, Inc. PPType provides professional solution and consultation
     service for digital typesetting
@@ -57,11 +63,15 @@
   - Learned a lot about how to run a business, like finance and accounting,
     marketing, business laws, etc.
 
+\vspace{2mm}
+
 - 2013.9--2016.4: Freelance Web Developer
   - Provided freelance development service for various clients from China,
     Canada, Hong Kong, Switzerland, etc.
   - Active Githuber and open source contributor
   - Fast learner about everything related to full stack web development
+
+\vspace{2mm}
 
 - 2012.7--2013.9: Software Engineer at Eayun
   - Enhanced EayunOS, an easy to use OpenStack linux distribution
@@ -71,12 +81,16 @@
     tedious work
   - Contributed patches for OpenStack and various related open source projects
 
+\vspace{2mm}
+
 - 2011.7--2012.1: Site Reliability Engineer at Baidu
   - $7 \times 24$ Responsible for the operation of Hadoop clusters (with 2800+
     servers)
   - Developed a Hadoop health auto-checking system with Shell Script and Python
   - Maintained a legacy Hadoop budget system written in Common
     Lisp (SBCL/hunchentoot)
+
+\vspace{2mm}
 
 - 2010.7--2010.10: Intern at Taobao
   - Designed and implemented a simple video conversion system for Taobao Video

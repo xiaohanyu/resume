@@ -10,12 +10,12 @@ CLEAN.include(tex, pdf, '*~')
 pandoc_tex_header = "pandoc/header.tex"
 
 file tex => [org, pandoc_tex_header] do
-  sh "pandoc #{org} --latex-engine=xelatex" +
+  sh "pandoc #{org} --pdf-engine=xelatex" +
      " -H #{pandoc_tex_header} -o #{tex}"
 end
 
 file pdf => [org, pandoc_tex_header] do
-  sh "pandoc #{org} --latex-engine=xelatex" +
+  sh "pandoc #{org} --pdf-engine=xelatex" +
      " -H #{pandoc_tex_header} -o #{pdf}"
 end
 
