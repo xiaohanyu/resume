@@ -27,7 +27,7 @@
       implemented the in-process cache module, distributed sidecar computation
       module etc.
     - 2019.10--2021.03: As one of the the founding engineers for Gojek's third
-      party platform, I designed and scafolded a data sync service using Go,
+      party platform, I designed and scaffolded a data sync service using Go,
       guided the team to build a JavaScript SDK which is used by Gojek's
       partners, trained and led the team to learn and practice modern web
       development by running hackthon projects
