@@ -7,49 +7,61 @@
       are chosen)
 
 * Skills
-  - Proficient in Python and JavaScript, familiar with C/C++, Java, Ruby,
-    Lisp/Scheme, Mathematica
-  - Familiar with Cloud Computing, basic knowledge of Hadoop operation
-  - Experienced in Linux system administration and various Continuous
-    Integration/Deployment tools
-    - Keywords: Shell Script, Ansible, Jenkins, Travis, Vagrant, Docker, Git,
-      Emacs/Vim, tmux
-  - Familiar with web development in both backend and frontend
-    - Keywords: Bootstrap, Semantic-UI, Django, Flask, React
-  - Experienced in HTTP RESTful API design
-  - Experienced Githuber with about 1000+ Github stars, active open source
-    contributor (about 20 open source project merged my patches)
-  - Top Emacs Lisp developer in China, created projects used by people all
-    over the world
-  - Experienced in digital typesetting
-    - Keywords: $\text{\LaTeX}$, Web Font, CSS, Pandoc
-  - Professional working proficiency in both written and spoken English
+
+- Polyglot engineer, strong expertise for general backend, frontend and iOS
+  development
+- Proficient in Python, Ruby, JavaScript, familiar with C/C++, Java,
+  Lisp/Scheme/Clojure, Go, Swift etc.
+- Expert in digital typesetting, $\text{\LaTeX}$, Web Font, CSS etc
+- Professional working proficiency in both written and spoken English
 
 * Work Experience
 
-- 2019.5--Present: Senior Product Engineer at Growth Team of Gojek
-  - Work on experimentation platform
+- 2019.5--Present: Senior Product Engineer at Customer Platform of GoTo Group
+  - GoTo Group is the largest tech company in Indonesia, where Customer Platform
+    is in charge of customer acquisition, growth, experience etc.
+  - As a senior product engineer, my role in customer platform includes but not
+    limited to:
+    - 2019.5--2019.10: Participated and led the feature development for Gojek's
+      internal A/B testing experimentation platform using clojure, designed and
+      implemented the in-process cache module, distributed sidecar computation
+      module etc.
+    - 2019.10--2021.03: As one of the the founding engineers for Gojek's third
+      party platform, I designed and scafolded a data sync service using Go,
+      guided the team to build a JavaScript SDK which is used by Gojek's
+      partners, trained and led the team to learn and practice modern web
+      development by running hackthon projects
+    - 2021.03--2022.11: Got onboarded as an iOS engineer to expand my comfort
+      zone and understand better about the business. I was part of the team to
+      maintain and tune Gojek App's home page and search page, including feature
+      development, performance optimization etc. Besides, I also worked with the
+      the build infra team for a while to optimize the iOS build process,
+      conducted workshops to promote hot module replacement for iOS development,
+      which is adopted by Gojek's iOS team to accelerate daily productivity
+      quite a lot.
 
 \vspace{2mm}
 
-- 2018.6--2019.3.: Senior Software Engineer at Platform Engineering team of Shopee
-  - Work on shopee cloud, which is a private cloud that provide PaaS services
-    like redis cluster, etc.
-  - Solo frontend developer with some UI/UX design
-  - Core developer for HTTP RESTful API
-- 2017.5--2017.6: Senior Web Developer at Data Engineering team of Shopee
-  - Fullstack web developer in data engineering team, responsible for web-based
-    data product, write maintainable code for both frontend and backend
-    (Python/Flask/React)
-  - Guided team to contribute patches to [[https://github.com/apache/incubator-superset][Apache Superset]]
-  - Responsible for fullstack web developer recruitment by tech interviews
-  - Provided mentorship for new fresh graduates
-  - Built and maintained docker based workflow for development and deployment
-  - Lecturer at PUGS (Python User Group Singapore)
-  - Within one year, our superset-based data visualization tools has about 1400
-    registered users (which is about 25% of all shopee employees), 300 DAU, 1500
-    dashboards, 15000 various charts, help shopee to transfer data to
-    visualizations , get insights, and make decisions everyday.
+- 2017.05--2019.03: Senior Software Engineer at Shopee
+  - Shopee is the largest e-commerce company in South East Asia
+  - 2018.6--2019.3.: Senior Software Engineer at Platform Engineering team
+    - Work on shopee cloud, which is a private cloud that provide PaaS services
+      like redis cluster, etc.
+    - Solo frontend developer with some UI/UX design
+    - Core developer for HTTP RESTful API
+  - 2017.5--2017.6: Senior Web Developer at Data Engineering team
+    - Fullstack web developer in data engineering team, responsible for web-based
+      data product, write maintainable code for both frontend and backend
+      (Python/Flask/React)
+    - Guided team to contribute patches to [[https://github.com/apache/incubator-superset][Apache Superset]]
+    - Responsible for fullstack web developer recruitment by tech interviews
+    - Provided mentorship for new fresh graduates
+    - Built and maintained docker based workflow for development and deployment
+    - Lecturer at PUGS (Python User Group Singapore)
+    - Within one year, our superset-based data visualization tools has about 1400
+      registered users (which is about 25% of all shopee employees), 300 DAU, 1500
+      dashboards, 15000 various charts, help shopee to transfer data to
+      visualizations , get insights, and make decisions everyday.
 
 \vspace{2mm}
 
@@ -60,8 +72,6 @@
     [[http://ppresume.com][http://ppresume.com]]
   - Published /A Guide for Resume Writing and Typesetting/ in Chinese, which
     got 5000 UVs during the first day when released
-  - Learned a lot about how to run a business, like finance and accounting,
-    marketing, business laws, etc.
 
 \vspace{2mm}
 
@@ -69,7 +79,6 @@
   - Provided freelance development service for various clients from China,
     Canada, Hong Kong, Switzerland, etc.
   - Active Githuber and open source contributor
-  - Fast learner about everything related to full stack web development
 
 \vspace{2mm}
 
@@ -87,14 +96,14 @@
   - $7 \times 24$ Responsible for the operation of Hadoop clusters (with 2800+
     servers)
   - Developed a Hadoop health auto-checking system with Shell Script and Python
-  - Maintained a legacy Hadoop budget system written in Common
-    Lisp (SBCL/hunchentoot)
+  - Maintained a legacy Hadoop budget system written in Common Lisp
+    (SBCL/hunchentoot)
 
 \vspace{2mm}
 
 - 2010.7--2010.10: Intern at Taobao
   - Designed and implemented a simple video conversion system for Taobao Video
-    with Python and ffmpeg
+    with Python and FFmpeg
 
 * Honors and Awards
 
