@@ -78,7 +78,7 @@
 - 2013.9--2016.4: Freelance Web Developer
   - Provided freelance development service for various clients from China,
     Canada, Hong Kong, Switzerland, etc.
-  - Active Githuber and open source contributor
+  - Active [[https://github.com/xiaohanyu][Githuber]] and open source contributor
 
 \vspace{2mm}
 
@@ -111,3 +111,9 @@
 - 2010: Second Prize Winner of the 8th Zhejiang University MCM
 - 2006: First Prize Winner of the National High School Chemistry
   Competition (19th/1000 place in Hebei Province, China)
+
+* Contact Me
+
+- Email: [[mailto:xiaohanyu1988@gmail.com][xiaohanyu1988@gmail.com]]
+- Linkedin: https://www.linkedin.com/in/xiaohanyu1988/
+- Github: https://github.com/xiaohanyu
